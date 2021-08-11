@@ -1,0 +1,20 @@
+{
+        "name": "note-app",
+        "version": "1.0.0",
+        "description": "",
+        "main": "app.js",
+        "scripts": {
+                "start": "tsc-watch --onSuccess \"node dist/app.js\"",
+                "test": "node --trace-warnings inspect ./dist/app.js"
+        },
+        "author": "",
+        "license": "ISC",
+        "devDependencies": {
+                "typescript": "^4.3.5"
+        },
+        "dependencies": {
+                "@types/node": "^16.4.13",
+                "@types/validator": "^13.6.3",
+                "validator": "^13.6.0"
+        }
+}
